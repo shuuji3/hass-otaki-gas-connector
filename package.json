@@ -1,0 +1,13 @@
+{
+  "name": "hass-otaki-gas-connector",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node sync.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
